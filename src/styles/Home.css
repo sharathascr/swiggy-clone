@@ -1,0 +1,18 @@
+#home-page {
+  margin: 30px;
+}
+
+#res-section {
+  margin: 10px;
+  padding: 10px;
+  /* border-radius: 5px;
+  box-shadow: 2px 10px 25px rgb(183, 181, 181); */
+  display: flex;
+  gap: 10px;
+}
+.restaurant-card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}

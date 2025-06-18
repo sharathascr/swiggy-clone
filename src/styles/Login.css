@@ -1,0 +1,67 @@
+/* Container Styles */
+#login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #f0f0f0; /* Light background for better visibility */
+}
+
+/* Login Content Styles */
+#login-content {
+  width: 100%;
+  max-width: 400px; /* Ensure responsiveness */
+  padding: 20px;
+  border: 1px solid #ccc; /* Softer border color */
+  border-radius: 10px; /* More rounded corners */
+  background-color: #fff; /* White background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Input Styles */
+#login-content input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto; /* Center inputs horizontally */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Heading Styles */
+#signin-heading {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0; /* More space around heading */
+  font-weight: 600; /* Slightly bolder font */
+  color: #333; /* Darker color for better readability */
+}
+
+/* Button Styles */
+#login-btn {
+  display: block;
+  margin: 20px auto; /* More space around button */
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  width: 90%; /* Consistent width with inputs */
+  padding: 10px; /* More padding for better button size */
+  font-weight: 600; /* Slightly bolder font */
+  font-size: 18px; /* Larger font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button Hover Effect */
+#login-btn:hover {
+  background-color: #e63900; /* Darker shade on hover */
+}
+
+.error-msg {
+  color: red; /* Red color for error messages */
+  font-size: 14px; /* Slightly smaller font size */
+  /* margin: 5px 0; Margin for spacing */
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+#navbar {
+  box-shadow: 4px 3px 10px rgb(229, 229, 229);
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-between;
+}
+
+#nav-items {
+  list-style-type: none;
+  font-weight: 500;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+#swiggy-logo {
+  width: 60px;
+  border-radius: 18px;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
